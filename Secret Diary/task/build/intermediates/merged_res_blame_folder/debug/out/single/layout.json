@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\nick9\\AndroidStudioProjects\\Secret Diary\\Secret Diary\\task\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\nick9\\AndroidStudioProjects\\Secret Diary\\Secret Diary\\task\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nick9\\AndroidStudioProjects\\Secret Diary\\Secret Diary\\task\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\nick9\\AndroidStudioProjects\\Secret Diary\\Secret Diary\\task\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

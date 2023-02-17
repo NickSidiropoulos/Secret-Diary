@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNewWriting"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="Dear Diary..."
+        android:inputType="textImeMultiLine"
+        android:lines="10"
+        android:maxLines="15"
+        android:minLines="5"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnSave"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUndo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="Undo"
+        app:layout_constraintEnd_toStartOf="@+id/btnSave"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewWriting" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewWriting" />
+
+    <TextView
+        android:id="@+id/tvDiary"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginTop="50dp"
+        android:gravity="top|start"
+        android:lines="8"
+        android:scrollbars="vertical"
+        android:text=""
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave"
+        tools:text=" ffffffffffffffffffss ffffffffffffff \n\n fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss \n\n\n ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff ffffffffffffffffffss ffffffffffffff fffffffffffffffffffff" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

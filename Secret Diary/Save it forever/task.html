@@ -1,0 +1,32 @@
+<h5 id="description">Description</h5>
+<p>
+  We have created a nice diary so far.
+  Users can add as many notes as they want, and remove the last one.
+  But the application should also be able to persistently save data,
+  and that is what you have to implement in this stage.
+  When a text is added or removed
+  all diary text should be saved including the date and time notations.
+  When the user launches the application,
+  they should see the diary exactly as before it was closed.
+</p>
+<h5 id="objectives">Objectives</h5>
+<ol>
+<li>
+    Save the diary persistently into <code class="java">SharedPreferences</code>
+    with name <code class="java">PREF_DIARY</code> and key <code class="java">KEY_DIARY_TEXT</code>.
+    The diary should be saved after each Save and Undo action.
+  </li>
+<li>
+    The content to be saved is the text on <code class="java">textView</code>
+    as a single string with the same structure, that is,
+    last entry saved is first entry displayed with entries separated with a blank line
+  </li>
+<li>When users launches the app, the saved diary should be restored.</li>
+<li>
+    The two buttons should work,
+    like in the previous stage,
+    also for the notes loaded from persistent storage.
+  </li>
+</ol>
+<h5 id="example">Example</h5>
+<p><img alt="Secret Diary features example" height="600" name="Stage4Example.gif" src="https://ucarecdn.com/7d2c04de-284e-4176-8497-31110d5dd511/" width="340"/></p>
